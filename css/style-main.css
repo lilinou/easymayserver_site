@@ -3610,11 +3610,11 @@ form select {
 /* -------- Portfolio Isotop Overlay Effect ---------- */
 
 .gallery-isotope.default-animation-effect .gallery-item {
-	overflow: hidden;
+	overflow: hidden!important;
 }
 .gallery-isotope.default-animation-effect .gallery-item .thumb {
 	position: relative;
-	overflow: hidden;
+	overflow: hidden!important;
 }
 .gallery-isotope.default-animation-effect .gallery-item .hover-link-video,
 .gallery-isotope.default-animation-effect .gallery-item .hover-link {

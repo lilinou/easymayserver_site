@@ -312,8 +312,8 @@ img#logo-footer { height: 40px; }
 .footer-contact { margin-top: 0; box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1); }
 .our-clients.theme-bg { padding-bottom: 60px; }
 .footer-contact .contact-box  { margin-bottom: 20px; }
-.copyright.mt-50 { margin-top: 10px !important; }
-.copyright .text-right { text-align: left; margin-top: 15px; }
+.copyright.mt-50 { margin-top: 10px !important; text-align: center;}
+.copyright .text-center { text-align: center; margin-top: 15px; }
 footer .social-icons.float-right { float: left !important; width: 100%; }
 .footer-widget.mt-60 { margin-top: 0 !important; }
 .footer-box { margin-bottom: 20px; margin-top: 30px; }
