@@ -3611,6 +3611,7 @@ form select {
 
 .gallery-isotope.default-animation-effect .gallery-item {
 	overflow: hidden!important;
+	-ms-scroll-limit: 0 0 0 0;
 }
 .gallery-isotope.default-animation-effect .gallery-item .thumb {
 	position: relative;
@@ -11359,6 +11360,7 @@ body.has-fixed-footer .main-content {
 Media Report Img
 */
 .report-img {
+	width: 80;
 	cursor: pointer;
   	transition: all 0.6s;
 }
