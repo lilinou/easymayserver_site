@@ -3611,6 +3611,7 @@ form select {
 
 .gallery-isotope.default-animation-effect .gallery-item {
 	overflow: hidden!important;
+	position: relative;
 	-ms-scroll-limit: 0 0 0 0;
 }
 .gallery-isotope.default-animation-effect .gallery-item .thumb {
