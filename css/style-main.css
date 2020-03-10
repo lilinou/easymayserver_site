@@ -9291,7 +9291,7 @@ section:hover .title-effect::before, section:focus .title-effect::before {
 }
 .professions-content .image-box-details {
 	background-color: #1e1e1e;
-	overflow-y: scroll;
+	overflow: hidden !important;
 }
 .professions-content .title {
 	color: #4c4c4c !important;
