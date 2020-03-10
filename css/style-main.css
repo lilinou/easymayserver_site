@@ -3616,7 +3616,7 @@ form select {
 }
 .gallery-isotope.default-animation-effect .gallery-item .thumb {
 	position: relative;
-	overflow: hidden!important;
+	overflow: hidden !important;
 }
 .gallery-isotope.default-animation-effect .gallery-item .hover-link-video,
 .gallery-isotope.default-animation-effect .gallery-item .hover-link {
@@ -3627,8 +3627,8 @@ form select {
 	vertical-align: middle;
 	width: 100%;
 	height: 100%;
-	background: none!important;
-	color: transparent!important;
+	background: none !important;
+	color: transparent !important;
 	z-index: 13;
 }
 .gallery-isotope.default-animation-effect .gallery-item .overlay-shade {
@@ -8671,8 +8671,8 @@ blockquote p {
 	max-width: 400px;
 }
 .project-gallery .project-thumb {
-	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow: hidden !important;
+	-ms-scroll-limit: 0 0 0 0 !important;
 	position: relative;
 }
 .project-gallery .project-thumb::before {
