@@ -11363,7 +11363,9 @@ body.has-fixed-footer .main-content {
 Media Report Img
 */
 .report-img {
-	width: 80;
+	min-width: 80 !important;
+	max-width: 80 !important;
+	width: 80 !important;
 	cursor: pointer;
   	transition: all 0.6s;
 }
