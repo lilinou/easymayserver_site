@@ -3610,11 +3610,9 @@ form select {
 /* -------- Portfolio Isotop Overlay Effect ---------- */
 
 .gallery-isotope.default-animation-effect .gallery-item {
-	overflow: hidden!important;
+	overflow: hidden !important;
 	position: relative;
-	scrollbar-color: rgb(252, 253, 252);
-	scrollbar-width: thin;
-	-ms-scroll-limit: 0 0 0 0;
+	-ms-scroll-limit: 0 0 0 0 !important;
 }
 .gallery-isotope.default-animation-effect .gallery-item .thumb {
 	position: relative;
