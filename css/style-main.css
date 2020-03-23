@@ -9647,8 +9647,9 @@ section:hover .title-effect::before, section:focus .title-effect::before {
 }
 .slider-container .video-js {
 	width: 100%;
-	z-index: -1;
-	position: relative;
+	position: absolute;
+	
+	
 }
 .slider-container .btn {
 	position: relative;

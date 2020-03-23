@@ -20,7 +20,7 @@ for elem in df["src"]:
 		res = "00" + str(elem)
 	elif len(str(elem)) == 2:
 		res = "0" + str(elem)
-	src.append("/assets/offer_update/"+ res +".jpg")
+	src.append("/assets/offer_2018-19/"+ res +".jpg")
 	print(res)
 for elem in df["description"]:
 	description.append(elem)

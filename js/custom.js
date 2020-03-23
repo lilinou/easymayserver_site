@@ -150,6 +150,30 @@ var THEMEMASCOT = {};
         });
     });
 
+    $(".portfolio-filter .filter_2018").click(function() {
+        $("#casesgrid").find(".gallery-item").each(function(){
+            if($(this).hasClass("2018"))
+            {
+                $(this).show();
+            }
+            else {
+                $(this).hide();
+            }
+        });
+    });
+
+    $(".portfolio-filter .filter_2019").click(function() {
+        $("#casesgrid").find(".gallery-item").each(function(){
+            if($(this).hasClass("2019"))
+            {
+                $(this).show();
+            }
+            else {
+                $(this).hide();
+            }
+        });
+    });
+
 
 
     /* Ranking Filter */
