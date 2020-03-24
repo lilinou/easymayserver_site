@@ -9651,6 +9651,11 @@ section:hover .title-effect::before, section:focus .title-effect::before {
 	
 	
 }
+
+video::-webkit-media-controls {
+	display:none !important;
+  }
+  
 .slider-container .btn {
 	position: relative;
 	z-index: 22;
