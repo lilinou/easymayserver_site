@@ -46,7 +46,7 @@ for index, row in df.iterrows():
 	appear_page.append(row["appear_page"])
 
 
-for i in range(322,len(url)):
+for i in range(398,len(url)):
 	write_to_file = "cases_" +str(i+1) + ".md"
 	file = open(write_to_file, 'w+', encoding='utf-8')
 	file.write("---\n")
