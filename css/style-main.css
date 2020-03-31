@@ -9583,6 +9583,9 @@ section:hover .title-effect::before, section:focus .title-effect::before {
 .slider-container {
 	height: 600px;
 }
+.slider-videocontainer {
+	height: 600px;
+}
 .services-list .title-bg {
 	color: #fff;
 	background-color: #bc8740;
@@ -10393,7 +10396,7 @@ footer.footer_border_columns .qode_column > .column_inner {
 	height: 600px;
 }
 .slider-container .video-js {
-	margin-top: -88px  !important;
+	margin-top: -45px  !important;
 }
 }
 
