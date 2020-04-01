@@ -10396,7 +10396,7 @@ footer.footer_border_columns .qode_column > .column_inner {
 	height: 600px;
 }
 .slider-container .video-js {
-	margin-top: -15px  !important;
+	margin-top: auto  !important;
 }
 }
 
